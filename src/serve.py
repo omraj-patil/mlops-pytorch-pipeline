@@ -6,7 +6,7 @@ from fastapi import FastAPI, File, UploadFile
 from PIL import Image
 from torchvision import transforms
 
-from model import get_model
+from src.model import get_model
 
 
 app = FastAPI()
